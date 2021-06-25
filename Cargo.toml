@@ -1,0 +1,14 @@
+[package]
+name = "utf8-read"
+edition = "2018"
+version = "0.4.0"
+readme = "README.md"
+authors = ["Gavin J Stark"]
+description = "UTF-8 reader from a stream\n"
+homepage = "https://github.com/atthecodeface/utf8-read-rs"
+documentation = "https://docs.rs/utf8-read"
+keywords = ["utf8", "read", "stream"]
+categories = ["filesystem", "network programming", "parsing tools"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/atthecodeface/utf8-read-rs"
+
