@@ -8,7 +8,7 @@ description = "UTF-8 reader from a stream\n"
 homepage = "https://github.com/atthecodeface/utf8-read-rs"
 documentation = "https://docs.rs/utf8-read"
 keywords = ["utf8", "read", "stream"]
-categories = ["filesystem", "network programming", "parsing tools"]
+categories = ["filesystem", "network-programming", "parsing"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/atthecodeface/utf8-read-rs"
 
