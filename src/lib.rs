@@ -29,7 +29,7 @@ converts any stream with the [std::io::Read] into a stream of `char`
 values, performing UTF8 decoding incrementally.
 
 If the [std::io::Read] stream comes from a file then this is just a
-streaming version of (e.g.) std::fs::read_to_string, but if the it
+streaming version of (e.g.) std::fs::read_to_string, but if it
 comes from, e.g., a [std::net::TcpStream] then it has more value:
 iterating through the characters of the stream will terminate when the
 TCP stream has stalled mid-UTF8, and can restart when the TCP stream
